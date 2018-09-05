@@ -4,4 +4,4 @@
   gather_facts: no
   become: yes
   tasks:
-  - file: path=/home/ansible/pull.txt state=touch
+  - file: path=/home/ansible/pull.txt state=absent
