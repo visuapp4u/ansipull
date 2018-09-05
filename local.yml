@@ -1,6 +1,6 @@
 ---
 
-- hosts: loclhost
+- hosts: localhost
   gather_facts: no
   become: yes
   tasks:
